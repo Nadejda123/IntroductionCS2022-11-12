@@ -2,11 +2,9 @@
 System.Console.WriteLine("Введите число a: ");
 int a=Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите число b: ");
-int b=Convert.ToInt32(Console.ReadLine());
-int max=a;
+int b=Convert.ToInt32(Console.ReadLine());;
 if (a<b)
-{
-    max=b;
+{;
     System.Console.WriteLine($"{b} является максимальным числом");
 }
 
