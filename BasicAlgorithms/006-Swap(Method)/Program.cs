@@ -15,16 +15,19 @@ int a=7,b=9;
 
 System.Console.WriteLine($"a={a} b={b}");
 Swap(ref a,ref b);
-System.Console.WriteLine($"a={a} b={b}");
-int sum,multi;
-Calculator(a,b,out sum,out multi);
 
-bool flag;
+/*bool flag;
 int x;
 do
 {
     flag=int.TryParse(Console.ReadLine(),out x);
     if (flag==false) System.Console.WriteLine("Введете целое число!");
 }
-while(flag
-==false);
+while(flag==false);
+*/
+
+System.Console.WriteLine($"a={a} b={b}");
+int sum,multi;
+Calculator(a,b,out sum,out multi);
+System.Console.WriteLine(sum);
+System.Console.Write(multi);
