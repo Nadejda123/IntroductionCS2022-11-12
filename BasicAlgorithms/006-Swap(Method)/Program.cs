@@ -5,6 +5,8 @@
     b=t;
 }
 
+
+
 void Calculator(int a,int b,out int sum,out int multi)
 {
     sum=a+b;
