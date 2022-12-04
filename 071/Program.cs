@@ -6,7 +6,7 @@
     {
         if (n > 0)
         {
-            Console.Write("{0} ", n);
+            Console.Write($"{n,4}");
             NatureNumbers(n - 1);
         }
     }
