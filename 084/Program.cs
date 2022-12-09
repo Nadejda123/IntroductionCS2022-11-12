@@ -13,7 +13,7 @@ if (Checking(num))
  {
     int sum = 0;
     foreach (char digit in num)
-    sum += digit - 48;
+    sum +=(int)char.GetNumericValue(digit);
     Console.WriteLine(sum);
  }
 else
